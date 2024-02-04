@@ -3,9 +3,27 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Title</title>
-	<script src="script.js"></script>
+	<link href="styles.css" rel="stylesheet">
+	<script src="script.js" defer></script>
 </head>
 <body>
-
+<div class="header">
+	<h1>Rock Paper Scissors</h1>
+	<div id="score">Score: <strong>0 / 0</strong></div>
+</div>
+<ul class="choices-list">
+	<li id="rock" class="choice selected-choice">
+		<img src="images/rock.png" alt="An image of a rock">
+	</li>
+	<li id="paper" class="choice">
+		<img src="images/paper.png" alt="An image of paper">
+	</li>
+	<li id="scissors" class="choice">
+		<img src="images/scissors.png" alt="An image of a pair of scissors">
+	</li>
+</ul>
+<div class="play-section">
+	<button id="play-btn">Play</button>
+</div>
 </body>
 </html>
